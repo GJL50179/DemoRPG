@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face {
+
+}
+.root{
+	-fx-background-color:black;
+}
+
+.groot{
+	-fx-background-color:black;
+}
+.scroll-pane{
+   -fx-background-color:black;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+#gText{
+	-fx-fill: white;
+	
+  	
+	
+}
+.button {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(gold, black);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: 'Enchanted Land';
+    -fx-font-size: 40px;
+}
